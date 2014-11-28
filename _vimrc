@@ -4,11 +4,13 @@ let g:dotvim_settings.default_indent = 4
 let g:dotvim_settings.max_column = 80
 let g:dotvim_settings.colorscheme = 'molokai'
 let g:dotvim_settings.plugin_groups_exclude = ['ruby','go','javascript','scala','scm','python']
+let g:dotvim_settings.autocomplete_method = 'ycm'
 
 
 source ~/.vim/vimrc
 
 set guifont=Source_Code_Pro:h10
+set t_Co=256
 
 nmap , <Plug>SneakPrevious
 "replace 'f' with 1-char Sneak
